@@ -1,0 +1,50 @@
+/* WebGuardComponent.css */
+.webguard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+.left-side {
+    flex: 1;
+    padding: 40px;
+}
+
+.left-content {
+    text-align: left;
+}
+
+.right-side {
+    flex: 1;
+    padding: 40px;
+    color: #ffffff;
+    background-color: #41AF4D;
+}
+
+.right-content {
+    text-align: left;
+}
+
+.price-section {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #41AF4D;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
